@@ -23,7 +23,7 @@ from sklearn.metrics import accuracy_score,classification_report,confusion_matri
 # In[106]:
 
 
-data = pd.read_csv(r"C:\Users\sidde\OneDrive\Desktop\bank churn\Customer-Churn-Records.csv")
+pd.read_csv("Customer-Churn-Records.csv")
 data
 
 
